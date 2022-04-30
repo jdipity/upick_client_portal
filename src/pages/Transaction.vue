@@ -11,8 +11,8 @@
           align="justify"
           narrow-indicator
         >
+          <q-tab name="overview" label="Overview" />
           <q-tab name="timeline" label="Timeline" />
-          <q-tab name="alarms" label="Alarms" />
           <q-tab name="documents" label="Documents" />
           <q-btn-dropdown
             active-color="primary"

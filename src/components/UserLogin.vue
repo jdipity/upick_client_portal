@@ -8,7 +8,7 @@
           clearable
           v-model="email"
           type="email"
-          label="email"
+          label="Email"
         />
         <q-input
           square
@@ -16,21 +16,21 @@
           clearable
           v-model="password"
           type="password"
-          label="password"
+          label="Password"
         />
       </q-form>
     </q-card-section>
     <q-card-actions class="q-px-md">
       <q-btn
         unelevated
-        color="red"
+        color="primary"
         size="lg"
         class="full-width"
         label="Login"
       />
     </q-card-actions>
     <q-card-section class="text-center q-pa-none">
-      <p class="text-grey-6">Not reigistered? Created an Account</p>
+      <p class="text-grey-6">Not registered? Create an Account</p>
     </q-card-section>
   </q-card>
 </template>
