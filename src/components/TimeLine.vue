@@ -1,7 +1,6 @@
 <template>
   <div class="q-px-lg q-pb-md">
     <q-timeline :layout="layout" color="secondary">
-      <h1>Transaction Progress</h1>
       <q-timeline-entry heading>
         Preliminary Steps
         <br />
@@ -81,14 +80,14 @@
 </template>
 
 <script>
-import { useTimeline } from "../stores/timeline";
+import { useTransaction } from "../stores/transaction";
 import { useQuasar } from "quasar";
 import { computed } from "vue";
 
 export default {
   name: "TimeLine",
   setup() {
-    const $tl = useTimeline();
+    const $tl = useTransaction();
 
     const $q = useQuasar();
     return {
